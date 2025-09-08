@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kost Putra de'BOWO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Navbar -->
+    <header class="bg-black text-white shadow-md sticky top-0 z-50">
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <h1 class="text-2xl font-bold text-yellow-400">Kost Putra de'BOWO</h1>
+        <nav>
+          <ul class="flex space-x-6">
+            <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+            <li>
+              <a href="#fasilitas" class="hover:text-yellow-400">Fasilitas</a>
+            </li>
+            <li><a href="#harga" class="hover:text-yellow-400">Harga</a></li>
+            <li><a href="#galeri" class="hover:text-yellow-400">Galeri</a></li>
+            <li>
+              <!-- <a href="#testimoni" class="hover:text-yellow-400">Testimoni</a> -->
+            </li>
+            <li><a href="#kontak" class="hover:text-yellow-400">Kontak</a></li>
+            <li>
+              <a href="#booking" class="hover:text-yellow-400">Booking</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="relative bg-cover bg-center h-[80vh] flex items-center justify-center"
+      style="background-image: url('img/kost2.jpeg')"
+    >
+      <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+      <div class="relative z-10 text-center text-white px-6" data-aos="fade-up">
+        <h1 class="text-6xl font-extrabold mb-4">Kost Putra de'BOWO</h1>
+        <h2 class="text-4xl font-extrabold mb-4">Hunian Nyaman & Strategis</h2>
+        <p class="text-lg mb-6">Pilihan tepat untuk mahasiswa & pekerja</p>
+        <a
+          href="#booking"
+          class="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg shadow-lg"
+          >Booking Sekarang</a
+        >
+      </div>
+    </section>
+
+    <!-- Fasilitas -->
+    <section id="fasilitas" class="container mx-auto py-16 px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Fasilitas</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div
+          class="bg-white shadow-lg rounded-2xl p-8 text-center"
+          data-aos="fade-up"
+        >
+          <div class="text-yellow-500 text-5xl mb-4">🛏️</div>
+          <h3 class="text-xl font-semibold mb-2">Kamar Luas</h3>
+          <p>Kamar nyaman dengan springbed, meja belajar, dan lemari.</p>
+        </div>
+        <div
+          class="bg-white shadow-lg rounded-2xl p-8 text-center"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="text-yellow-500 text-5xl mb-4">📶</div>
+          <h3 class="text-xl font-semibold mb-2">WiFi Cepat</h3>
+          <p>Internet stabil 24 jam untuk kebutuhan kuliah maupun kerja.</p>
+        </div>
+        <div
+          class="bg-white shadow-lg rounded-2xl p-8 text-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="text-yellow-500 text-5xl mb-4">🛵</div>
+          <h3 class="text-xl font-semibold mb-2">Parkir Aman</h3>
+          <p>Area parkir luas untuk motor dengan keamanan terjamin.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Harga -->
+    <section id="harga" class="bg-gray-100 py-16 px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Pilihan Harga</h2>
+      <div class="flex flex-col md:flex-row justify-center gap-8">
+        <div
+          class="bg-white shadow-xl rounded-2xl p-8 text-center w-full md:w-1/3"
+          data-aos="zoom-in"
+        >
+          <h3 class="text-2xl font-semibold mb-4">Bulanan</h3>
+          <p class="text-3xl font-bold text-yellow-500 mb-2">Rp 700.000</p>
+          <p class="mb-6">Termasuk listrik & air</p>
+          <a
+            href="#booking"
+            class="bg-yellow-500 text-black font-semibold py-2 px-4 rounded-lg hover:bg-yellow-400"
+            >Pilih Paket</a
+          >
+        </div>
+        <div
+          class="bg-white shadow-xl rounded-2xl p-8 text-center w-full md:w-1/3"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
+          <h3 class="text-2xl font-semibold mb-4">Triwulanan</h3>
+          <p class="text-3xl font-bold text-yellow-500 mb-2">Rp 2.100.000</p>
+          <p class="mb-6">Termasuk listrik & air</p>
+          <a
+            href="#booking"
+            class="bg-yellow-500 text-black font-semibold py-2 px-4 rounded-lg hover:bg-yellow-400"
+            >Pilih Paket</a
+          >
+        </div>
+        <div
+          class="bg-white shadow-xl rounded-2xl p-8 text-center w-full md:w-1/3"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
+          <h3 class="text-2xl font-semibold mb-4">Semesteran</h3>
+          <p class="text-3xl font-bold text-yellow-500 mb-2">Rp 4.200.000</p>
+          <p class="mb-6">Termasuk listrik & air</p>
+          <a
+            href="#booking"
+            class="bg-yellow-500 text-black font-semibold py-2 px-4 rounded-lg hover:bg-yellow-400"
+            >Pilih Paket</a
+          >
+        </div>
+        <div
+          class="bg-white shadow-xl rounded-2xl p-8 text-center w-full md:w-1/3"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
+          <h3 class="text-2xl font-semibold mb-4">Tahunan</h3>
+          <p class="text-3xl font-bold text-yellow-500 mb-2">Rp 8.200.000</p>
+          <p class="mb-6">Termasuk listrik, air dan hemat Rp 200.000</p>
+          <a
+            href="#booking"
+            class="bg-yellow-500 text-black font-semibold py-2 px-4 rounded-lg hover:bg-yellow-400"
+            >Pilih Paket</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri -->
+    <section id="galeri" class="container mx-auto py-16 px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Galeri Kost</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <img
+          src="img/kostdebowo.jpeg"
+          class="rounded-xl shadow-lg hover:scale-105 transition-transform"
+          data-aos="fade-up"
+          width="400px"
+          height="400px"
+        />
+        <img
+          src="img/parkiran.jpeg"
+          class="rounded-xl shadow-lg hover:scale-105 transition-transform"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          width="400px"
+          height="500px"
+        />
+        <img
+          src="img/kamar.jpeg"
+          class="rounded-xl shadow-lg hover:scale-105 transition-transform"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          width="500px"
+          height="700px"
+        />
+        <img
+          src="img/KamarTDR3.jpg"
+          class="rounded-xl shadow-lg hover:scale-105 transition-transform"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          width="400px"
+          height="400px"
+        />
+        <img
+          src="img/KamarMND1.jpeg"
+          class="rounded-xl shadow-lg hover:scale-105 transition-transform"
+          data-aos="fade-up"
+          data-aos-delay="400"
+          width="400px"
+          height="400px"
+        />
+        <img
+          src="img/KamarMND2.jpeg"
+          class="rounded-xl shadow-lg hover:scale-105 transition-transform"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          width="400px"
+          height="400px"
+        />
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <!-- <section id="testimoni" class="bg-gray-100 py-16 px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Apa Kata Penghuni?</h2>
+      <div class="grid md:grid-cols-3 gap-8 container mx-auto">
+        <div class="bg-white shadow-lg rounded-2xl p-6" data-aos="fade-right">
+          <p>"Kost nyaman, lokasi strategis dekat kampus dan pusat kota."</p>
+          <h4 class="mt-4 font-semibold">— Andi, Mahasiswa</h4>
+        </div>
+        <div class="bg-white shadow-lg rounded-2xl p-6" data-aos="fade-up">
+          <p>
+            "Fasilitas lengkap dan internet cepat, cocok buat kerja remote."
+          </p>
+          <h4 class="mt-4 font-semibold">— Rina, Freelancer</h4>
+        </div>
+        <div class="bg-white shadow-lg rounded-2xl p-6" data-aos="fade-left">
+          <p>"Harga terjangkau, keamanan terjamin, recommended banget!"</p>
+          <h4 class="mt-4 font-semibold">— Budi, Karyawan</h4>
+        </div>
+      </div>
+    </section>  -->
+
+    <!-- Kontak -->
+    <section id="kontak" class="bg-black text-white py-16 px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Kontak Kami</h2>
+      <div class="text-center space-y-3">
+        <p>📍 Jl. Prof. Sudarto, SH Gg. Tirto Aji No. 17, Semarang</p>
+        <p>📞 0813-2548-4440</p>
+        <!-- <p>✉️ debowo.kost@example.com</p> -->
+        <a
+          href="https://wa.me/6281325484440"
+          target="_blank"
+          class="mt-6 inline-block bg-yellow-500 text-black px-6 py-2 rounded-lg font-semibold hover:bg-yellow-400"
+          >Hubungi via WhatsApp</a
+        >
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section id="booking" class="container mx-auto py-16 px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Form Booking Kamar</h2>
+      <div
+        class="max-w-xl mx-auto bg-white shadow-xl rounded-2xl p-8"
+        data-aos="zoom-in"
+      >
+        <form id="bookingForm" class="space-y-4">
+          <input
+            type="text"
+            id="nama"
+            placeholder="Nama Lengkap"
+            required
+            class="w-full p-3 border rounded-lg"
+          />
+          <input
+            type="tel"
+            id="no_hp"
+            placeholder="Nomor HP / WhatsApp"
+            required
+            class="w-full p-3 border rounded-lg"
+          />
+          <input
+            type="date"
+            id="tanggal_masuk"
+            required
+            class="w-full p-3 border rounded-lg"
+          />
+          <select id="paket" class="w-full p-3 border rounded-lg">
+            <option value="Bulanan">Bulanan (Rp 700.000)</option>
+            <option value="Bulanan">Triwulanan (Rp 2.100.000)</option>
+            <option value="Bulanan">Semesteran (Rp 4.200.000)</option>
+            <option value="Tahunan">Tahunan (Rp 8.200.000)</option>
+          </select>
+          <textarea
+            id="catatan"
+            rows="3"
+            placeholder="Catatan Tambahan"
+            class="w-full p-3 border rounded-lg"
+          ></textarea>
+          <button
+            type="submit"
+            class="w-full bg-yellow-500 text-black font-semibold py-3 rounded-lg hover:bg-yellow-400"
+          >
+            Booking via WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 text-center py-6">
+      <p>© 2025 Kost Putra de'BOWO. All rights reserved.</p>
+      <div class="flex justify-center space-x-6 mt-3 text-xl">
+        <!-- <a href="#" class="hover:text-yellow-400">📘</a> 
+        <a href="#" class="hover:text-yellow-400">📸</a>
+        <a href="#" class="hover:text-yellow-400">🎥</a> -->
+      </div>
+    </footer>
+
+    <!-- Script WhatsApp -->
+    <script>
+      document
+        .getElementById("bookingForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          let nama = document.getElementById("nama").value;
+          let no_hp = document.getElementById("no_hp").value;
+          let tanggal = document.getElementById("tanggal_masuk").value;
+          let paket = document.getElementById("paket").value;
+          let catatan = document.getElementById("catatan").value;
+
+          let nomorWA = "6281325484440"; // ganti dengan nomor WA asli
+          let pesan = `Halo, saya ingin booking kamar kost:%0A
+Nama: ${nama}%0A
+Nomor HP: ${no_hp}%0A
+Tanggal Masuk: ${tanggal}%0A
+Paket: ${paket}%0A
+Catatan: ${catatan}`;
+          window.open(`https://wa.me/${nomorWA}?text=${pesan}`, "_blank");
+        });
+    </script>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
